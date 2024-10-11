@@ -1,1 +1,367 @@
+<html>
 
+<head>
+
+ <title>
+
+            Horizontal Navigation Bar
+
+</title>
+
+<style>
+
+#wrapper {display:flex;}
+
+#lhc {flex:3;background:#ffcccc;}      
+
+#mc {flex:1;background:#ff6699;}
+
+* {
+
+  margin: 0;  
+
+   
+
+    padding: 0;
+
+}
+
+   
+
+.navbar {
+
+    display: flex;
+
+   
+
+    position: sticky;  
+
+    align-items: center;
+
+    justify-content: center;
+
+    top: 0px;
+
+   
+
+    cursor: pointer;
+
+}
+
+   
+
+.nav-list {
+
+    width: 50%;
+
+    display: flex;
+
+}
+
+   
+
+.nav-list li {
+
+    list-style: none;
+
+    padding: 26px 30px;
+
+}
+
+   
+
+.nav-list li a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+   
+
+.nav-list li a: {
+
+    color: black;
+
+}
+
+   
+
+.rightNav {
+
+    width: 50%;
+
+    text-align: right;
+
+}
+
+   
+
+#search {
+
+    padding: 5px;
+
+    font-size: 17px;
+
+    border: 2px solid grey;
+
+    border-radius: 9px;
+
+}
+
+   
+
+.background {
+
+    background: rgb(255, 153, 170) url(
+
+"https://i.pinimg.com/474x/f6/08/42/f608424cf377a7f33edf9004a9d2a9ba.jpg");
+
+    background-blend-mode: lighten;
+
+    background-size: cover;
+
+}
+
+   
+
+h1 {text-align: center;}
+
+h2 {text-align: center;}
+
+h3 {text-align: center;}
+
+p {text-align: center;}
+
+div {text-align: center;}
+
+ 
+
+        table {
+
+  font-family: arial, sans-serif;
+
+  border-collapse: collapse;
+
+  width: 97%;
+
+}
+
+ 
+
+td, th {
+
+  border: 1px solid #ff0066;
+
+  text-align: centre;
+
+  padding: 8px;
+
+}
+
+ 
+
+tr:(even) {
+
+  background-color: #dddddd;
+
+}
+
+ 
+
+footer {
+
+  background-color:#ff99aa;
+
+  padding: 10px;
+
+  text-align: center;
+
+  color: white;
+
+}
+
+</style>
+
+ 
+
+ 
+
+</head>
+
+<body style="background-color:#ffe6e6;">
+
+       
+
+     
+
+        <nav class="navbar background">
+
+            <ul class="nav-list">
+
+                <li style="font-size:25px;font-family:Freestyle Script;"><a href="#Car">Home</a></li>
+
+                <li style="font-size:25px;font-family:Freestyle Script;"><a href="#file">Brands</a></li>
+
+                  <li style="font-size:25px;font-family:Freestyle Script;"><a href="#file">New in</a></li>
+
+                        <li style="font-size:25px;font-family:Freestyle Script;"><a href="#file">SALE</a></li>
+
+                     <h1 style="font-size:50px;font-family:Freestyle Script;color:white;">Beauty Prism!</h1>
+
+            </ul>
+
+            <div class="rightNav">
+
+                <input type="text" name="search" id="search" />
+
+                <button class="btn btn-sm">Search</button>
+
+            </div>
+
+        </nav>
+
+ 
+
+<p><img src="makeup1.jpg" alt="Make-up" style="float:left;width:300px;height:300px;">
+
+<h2 style="font-size:40px;font-family:Kristen ITC;">Make-up<h2>
+
+ 
+
+<p style="font-family:Kristen ITC;font-size:15px;">Hey everyone, this is a makeup website about everything. We discuss everything from how to prepare your skin before applying makeup to typical make-up mistakes, trendy products, and so much more. You can even write us at Beautyprism@gmail.com if you want us to tackle specific topics! Today's topics will be high-end product dupes and the order you should apply your make-up. Today, we are going to cover foundation!<p>
+
+<br>
+
+<p style="font-family:Kristen ITC;font-size:15px;">Everyone loves a full coverage, matte foundation, and NARS light reflecting foundation is one of the best! It simply glides on to your skin! However, at £40 for 30ml, it is not exactly the most affordable for everyone! The quality is excellent, but the pricing is not. So, we've discovered one of the best dupes! Only £11.99 for the L'Oréal infallible fresh wear foundation! The same finish at a fraction of the price! Astonishing much? ? The second foundation dupe we identified for £36 was for the viral Charlotte Tilbury Hollywood Flawless Filter! This foundation is more natural, with medium coverage and a lovely glow. The best foundation for achieving the "it" girl look! However, such cost is not affordable for everyone.So ,the best dupe is E.l.f. Halo Glow Liquid Filter. Exact same finish!<p>
+
+<br>
+
+<p style="font-family:Kristen ITC;font-size:15px;"> Below is a table with products we discussed as well as some other dupes. You can find most of these products in Boots and this is the link to it: "https://www.boots.com/." </p>
+
+<br>
+
+<div id="wrapper">
+
+    <div id="lhc"><table>
+
+  <tr>
+
+    <th>High-end product</th>
+
+    <th>Dupe</th>
+
+  </tr>
+
+  <tr>
+
+    <td style="font-size:20px;background-color:#ff6699;">NARS light reflecting foundation(£40)</td>
+
+    <td style="font-size:20px;background-color:#ff6699;">L’Oréal infallible fresh wear foundation(£11.99)</td>
+
+  </tr>
+
+  <tr>
+
+    <td style="font-size:20px;">Charlotte Tilbury Flawless Filter(£36)</td>
+
+    <td style="font-size:20px;">E.l.f. Halo Glow Liquid Filter(£14)</td>
+
+    </tr>
+
+  <tr>
+
+    <td style="font-size:20px;background-color:#ff6699;">Fenty Soft Matte Foundation(£36)</td>
+
+    <td style="font-size:20px;background-color:#ff6699;">Catrice HD Foundation(£11)</td>
+
+ </tr>
+
+  <tr>
+
+    <td style="font-size:20px;">Armani Luminous Silk Foundation(£64)</td>
+
+    <td style="font-size:20px;">L’Oréal True Match Tinted Serum(£15)</td>
+
+  </tr>
+
+  <tr>
+
+    <td style="font-size:20px;background-color:#ff6699;">Fenty Skin Tint(£30)</td>
+
+    <td style="font-size:20px;background-color:#ff6699;">Wet N Wild Tinted Hydrator(£5)</td>
+
+  </tr>
+
+</table></div>
+
+    <div id="mc"><h3 style="font-family:Kristen ITC;font-size:17px;">The recommended order of make-up :</h3>
+
+ 
+
+<ol>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Serum</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Moisturizer</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Primer</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Colour corrector</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Foundation</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Concealer</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Cream contour</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Cream Bronzer</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Setting Powder</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Powder Bronzer</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Eyebrows</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Eyeshadow</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Curl lashes</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Eyeliner</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Mascara</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Blush(cream or powder)</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Highlighter(cream or powder)</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Lipstick/Lipgloss</li>
+
+  <li style="font-family:Kristen ITC;font-size:10px;">Setting spray</li>
+
+</ol></div>
+
+</div>
+
+<br>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wuHGc9wGViQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" style="float:left;" allowfullscreen></iframe>  
+
+<p style="font-size:20px;font-family:Kristen ITC;">A YouTube video can be seen here. This video features more products and a lot more in-depth analysis of the differences between the items. She compares how they feel on her skin, how they look in natural lighting, the consistency of the foundations and much more!<p>
+
+<br>
+
+<p style="font-size:20px;font-family:Kristen ITC;">That's all for now! Next week, we'll discuss popular products on the market and if they're worth the hype! In addition, we'll go over some potential concealer dupes and lip product dupes! Shh... here are some brands we will review next week: Rare Beauty liquid blush, Dior lip oil, and Clinique black honey lipstick.<p>
+
+<br>
+
+<footer>
+
+  <p style="font-size:20px;font-family:Kristen ITC;">Bye for now!</p>
+
+</footer>
+
+</body>
+
+</html> 
